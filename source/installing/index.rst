@@ -21,7 +21,7 @@ For Debian based systems:
 
     sudo apt-get install python-pip libusb-1.0.0-dev libdc1394-22-dev 
     sudo apt-get install libjpeg-turbo8-dev python-opencv python-wxgtk3.0
-    pip install numpy future gooey
+    pip install numpy future gooey pytest
     pip install cuav
     
 For Fedora based systems:
@@ -29,7 +29,7 @@ For Fedora based systems:
 .. code:: bash
 
     sudo dnf install python-devel python-opencv wxPython python-pip redhat-rpm-config
-    pip install numpy future gooey
+    pip install numpy future gooey pytest
     pip install cuav
  
 .. note::
